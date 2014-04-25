@@ -2,11 +2,11 @@
 /**
  * Plugin Name: Foundation 5 Styles plugin
  * Plugin URI: http://www.thewirelessguy.co.uk
- * Description: Add Foundation 5 styles into TinyMCE in WordPress.
+ * Description: Adds Foundation 5 styles into TinyMCE in WordPress.
  * Version: 1.0
  * Author: Stephen Mullen
  * Author URI: http://www.thewirelessguy.co.uk
- * License: GPL2
+ * License: GPLv2 or later
  */
 
 if ( ! class_exists('twg_foundation5_styles_tinymce') ) {
