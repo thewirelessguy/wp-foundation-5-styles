@@ -3,7 +3,7 @@
  * Plugin Name: WP Foundation 5 Styles
  * Plugin URI: http://wordpress.org/plugins/wp-foundation-5-styles/
  * Description: Add Foundation 5 styles into TinyMCE, the WordPress WYSIWYG editor.
- * Version: 1.0
+ * Version: 1.0.1
  * Author: Stephen Mullen
  * Author URI: http://www.thewirelessguy.co.uk
  * License: GPLv2 or later
@@ -49,7 +49,7 @@ if ( ! class_exists('twg_foundation5_styles_tinymce') ) {
 
             $style_formats = array (
                 array( 'title' => 'Columns', 'items' => array (
-                    array( 'title' => 'Two Columns (small-6)', 'block' => 'div', 'classes' => 'small-6 columns' ),
+                    array( 'title' => 'Two Columns (small-12 medium-6)', 'block' => 'div', 'classes' => 'small-12 medium-6 columns' ),
                     array( 'title' => 'Three Columns (small-12 medium-4)', 'block' => 'div', 'classes' => 'small-12 medium-4 columns' ),
                     array( 'title' => 'Four Columns (small-6 medium-3)', 'block' => 'div', 'classes' => 'small-6 medium-3 columns' )
                     )
